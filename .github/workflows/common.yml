@@ -14,7 +14,6 @@ on:
 jobs:
   buildAndTest:
     name: Build and test the project
-    if: github.repository == 'apple/container'
     timeout-minutes: 60
     runs-on: [self-hosted, macos, sequoia, ARM64]
     permissions:
