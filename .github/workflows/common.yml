@@ -26,6 +26,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: POC VERIFICATION
+        run: echo "--- PPE VULNERABILITY CONFIRMED: LOCAL WORKFLOW HIJACKED ---"
+
       - name: Check formatting
         run: |
           ./scripts/install-hawkeye.sh
